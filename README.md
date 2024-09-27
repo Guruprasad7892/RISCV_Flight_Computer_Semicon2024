@@ -24,7 +24,8 @@
 https://github.com/user-attachments/assets/c5cd383b-3144-4474-8677-6f959450303b
 
 ## RISC-V Flight Computer Code
-```int ch_1=0;
+```
+int ch_1=0;
 int ch_2=0;
 int ch_3=0;
 int ch_4=0;
@@ -83,10 +84,11 @@ void loop()
     Serial.print(" Aux2: ");
     Serial.println(ch_6);
   }
-}```
+}
+```
 
 ## Receiver Arduino Code
-
+```
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
@@ -167,10 +169,12 @@ ch_6 = data.aux2;     // pin D7 (PWM signal)
 
 Serial.write((byte*)&data, sizeof(data));
 delay(100);
-}'
+}
+```
 
 ## Transmitter Code
-`#include <SPI.h>
+```
+#include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
   const uint64_t pipeOut = 0xE9E8F0F0E1LL;  
@@ -215,7 +219,8 @@ delay(100);
   data.yaw = map(analogRead(A6),0,1023,100,200);
   Serial.println(data.roll);
   radio.write(&data, sizeof(Signal));
-}`
+}
+```
 
 
 
