@@ -20,8 +20,8 @@
 ## Flight Controller Circuit Diagram
 ![image](https://github.com/user-attachments/assets/39eb07d2-ee4a-41a6-ba5d-4b0cecc5a3f9)
 
-## Ground Level Testing
-https://github.com/user-attachments/assets/c5cd383b-3144-4474-8677-6f959450303b
+## Testing video
+https://github.com/user-attachments/assets/8e27ccee-0541-4aa1-ba30-82a421530bca
 
 ## RISC-V Flight Computer Code
 ```
