@@ -6,7 +6,7 @@
 ## Features
 ### 1. VSD Squadron Mini as the primary flight computer
 ### 2. NRF24L01 PA+LNA for near range radio communication
-### 3. Arduino Nano as the communication interface between NRF24L01 PA+LNA and VSD Squadron Mini (Arduinon nRF doesn't support RISC-V boards a new library is in development)
+### 3. Arduino Nano as the communication interface between NRF24L01 PA+LNA and VSD Squadron Mini (Arduino nRF doesn't support RISC-V boards a new library is in development)
 
 ## Flight Computer
 ![image](https://github.com/user-attachments/assets/d0e8e676-4ce7-43af-bae9-579253dfb71f)
